@@ -1,0 +1,62 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+button {
+    padding: 10px;
+    background-color: #213448;
+    border-radius: 6px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+table {
+    font-size: 23px; 
+    margin-bottom: 30px;
+}
+
+th {
+    background-color: #213448;
+    color: #fbfbfb;
+}
+
+.bg-table {
+    margin: 40px;
+    padding: 20px;
+    background-color: #94B4C1;
+    border-radius: 10px;
+}
+
+.form-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #94B4C1;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    font-weight: 600;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
